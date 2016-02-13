@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">>
+
+<ui:composition>
+
+    <ul class="list-unstyled vertical-menu-siblings">
+
+        <li class="vertical-menu-parent">
+            <span>Ajax Core</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/basic.xhtml">Basic</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/event.xhtml">Event</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/listener.xhtml">Listener</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/counter.xhtml">Counter</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/process.xhtml">Process</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/validation.xhtml">Validation</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/dropdown.xhtml">Dropdown</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/partialSubmit.xhtml">PartialSubmit</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/selector.xhtml">Selector</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/search.xhtml">Search</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/poll.xhtml">Poll</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/fragment.xhtml">Fragment</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/status.xhtml">Status</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/ajax/remoteCommand.xhtml">RemoteCommand</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>Input</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/input/autoComplete.xhtml">AutoComplete</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/inputTextarea.xhtml">InputTextarea</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/booleanButton.xhtml">BooleanButton</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/booleanCheckbox.xhtml">BooleanCheckbox</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/calendar.xhtml">Calendar</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/checkboxMenu.xhtml">CheckboxMenu</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/oneMenu.xhtml">OneMenu</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/editor.xhtml">Editor</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/inputText.xhtml">InputText</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/inputNumber.xhtml">InputNumber</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/inputMask.xhtml">InputMask</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/listbox.xhtml">Listbox</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/manyButton.xhtml">ManyButton</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/manyMenu.xhtml">ManyMenu</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/manyCheckbox.xhtml">ManyCheckbox</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/multiSelectListbox.xhtml">MultiSelectListbox</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/oneButton.xhtml">OneButton</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/oneRadio.xhtml">OneRadio</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/signature.xhtml">Signature</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/spinner.xhtml">Spinner</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/slider.xhtml">Slider</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/inputSwitch.xhtml">Switch</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/password.xhtml">Password</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/keyboard.xhtml">Keyboard</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/rating.xhtml">Rating</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/colorPicker.xhtml">ColorPicker</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/inplace.xhtml">Inplace</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/keyFilter.xhtml">KeyFilter</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/input/knob.xhtml">Knob</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>Button</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/button/button.xhtml">Button</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/button/commandButton.xhtml">CommandButton</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/button/commandLink.xhtml">CommandLink</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/button/link.xhtml">Link</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/button/splitButton.xhtml">SplitButton</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>Data</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/data/carousel.xhtml">Carousel</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/dataGrid.xhtml">DataGrid</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/dataList.xhtml">DataList</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/datascroller/basic.xhtml">DataScroller</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/datatable/basic.xhtml">DataTable</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/diagram/basic.xhtml">Diagram</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/pickList.xhtml">PickList</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/orderList.xhtml">OrderList</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/gmap/basic.xhtml">GMap</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/dataexporter/basic.xhtml">DataExporter</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/mindmap.xhtml">Mindmap</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/repeat.xhtml">Repeat</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/ring.xhtml">Ring</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/schedule.xhtml">Schedule</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/tagCloud.xhtml">TagCloud</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/tree/basic.xhtml">Tree</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/treetable/basic.xhtml">TreeTable</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/data/htree/basic.xhtml">HorizontalTree</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>Panel</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/accordionPanel.xhtml">Accordion</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/dashboard.xhtml">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/fieldset.xhtml">Fieldset</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/grid.xhtml">Grid CSS</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/layout/element.xhtml">Layout</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/notificationBar.xhtml">NotificationBar</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/outputPanel.xhtml">OutputPanel</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/panel.xhtml">Panel</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/panelGrid.xhtml">PanelGrid</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/ribbon.xhtml">Ribbon</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/scrollPanel.xhtml">ScrollPanel</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/tabView.xhtml">TabView</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/toolbar.xhtml">Toolbar</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/panel/wizard.xhtml">Wizard</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>Overlay</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/overlay/confirmDialog.xhtml">ConfirmDialog</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/overlay/dialog/basic.xhtml">Dialog</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/overlay/lightBox.xhtml">LightBox</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/overlay/overlayPanel.xhtml">OverlayPanel</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/overlay/tooltip/tooltipOptions.xhtml">Tooltip</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>Menu</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/breadcrumb.xhtml">Breadcrumb</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/contextmenu/basic.xhtml">ContextMenu</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/dock.xhtml">Dock</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/megaMenu.xhtml">MegaMenu</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/menu.xhtml">Menu</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/menubar.xhtml">Menubar</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/menuButton.xhtml">MenuButton</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/panelMenu.xhtml">PanelMenu</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/slideMenu.xhtml">SlideMenu</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/stack.xhtml">Stack</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/steps.xhtml">Steps</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/tabMenu.xhtml">TabMenu</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/menu/tieredMenu.xhtml">TieredMenu</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>Charts</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/area.xhtml">Area</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/bar.xhtml">Bar</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/bubble.xhtml">Bubble</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/donut.xhtml">Donut</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/line.xhtml">Line</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/pie.xhtml">Pie</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/metergauge.xhtml">MeterGauge</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/ohlc.xhtml">OHLC</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/animate.xhtml">Animate</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/export.xhtml">Export</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/interactive.xhtml">Interactive</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/live.xhtml">Live</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/multimedia/graphicImage.xhtml">Static</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/zoom.xhtml">Zoom</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/combined.xhtml">Combined</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/multiaxis.xhtml">MultiAxis</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/date.xhtml">Date</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/chart/responsive.xhtml">Responsive</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>Messages</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/message/growl.xhtml">Growl</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/message/messages.xhtml">Messages</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>Multimedia</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/multimedia/barcode.xhtml">Barcode</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/multimedia/compare.xhtml">Compare</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/multimedia/contentFlow.xhtml">ContentFlow</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/multimedia/cropper.xhtml">Cropper</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/multimedia/galleria.xhtml">Galleria</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/multimedia/graphicImage.xhtml">GraphicImage</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/multimedia/media.xhtml">Media</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/multimedia/photoCam.xhtml">PhotoCam</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/multimedia/switch.xhtml">Switch</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>File</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/file/upload/basic.xhtml">Upload</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/file/download.xhtml">Download</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>DragDrop</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/dnd/draggable.xhtml">Draggable</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/dnd/dataGrid.xhtml">DataGrid</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/dnd/dataTable.xhtml">DataTable</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/dnd/custom.xhtml">Custom</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>Client Side Validation</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/csv/basic.xhtml">Basic</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/csv/bean.xhtml">Bean</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/csv/custom.xhtml">Custom</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/csv/event.xhtml">Event</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>Dialog Framework</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/df/basic.xhtml">Basic</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/df/data.xhtml">Data</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/df/message.xhtml">Message</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/df/nested.xhtml">Nested</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="vertical-menu-parent">
+            <span>Misc</span>
+            <ul class="list-unstyled vertical-menu-children">
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/responsive.xhtml">Responsive</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/blockUI.xhtml">BlockUI</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/cache.xhtml">Cache</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/captcha.xhtml">Captcha</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/clock.xhtml">Clock</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/collector.xhtml">Collector</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/defaultCommand.xhtml">DefaultCommand</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/effect.xhtml">Effect</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/exceptionHandler.xhtml">ExceptionHandler</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/fa.xhtml">FontAwesome</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/feedReader.xhtml">FeedReader</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/focus.xhtml">Focus</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/hotkey.xhtml">Hotkey</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/idleMonitor.xhtml">IdleMonitor</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/log.xhtml">Log</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/outputLabel.xhtml">OutputLabel</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/printer.xhtml">Printer</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/progressBar.xhtml">ProgressBar</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/requestContext.xhtml">RequestContext</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/resetInput.xhtml">ResetInput</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/resizable.xhtml">Resizable</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/separator.xhtml">Separator</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/spacer.xhtml">Spacer</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/spotlight.xhtml">Spotlight</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/sticky.xhtml">Sticky</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/terminal.xhtml">Terminal</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/themeSwitcher.xhtml">ThemeSwitcher</a>
+                </li>
+                <li>
+                    <a href="#{request.contextPath}/ui/misc/watermark.xhtml">Watermark</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</ui:composition>
+
+
+</html>
