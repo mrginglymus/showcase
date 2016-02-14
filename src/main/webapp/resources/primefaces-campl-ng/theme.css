@@ -1,3 +1,9 @@
+.ui-state-default.ui-button {
+  color: #000;
+  background-color: #e4e4e4;
+  border: 1px solid #999;
+}
+
 /* Component containers
 ----------------------------------*/
 .ui-widget {
@@ -15,7 +21,7 @@
 }
 
 .ui-widget-content {
-  border: 1px solid #a8a8a8;
+  border: 1px solid #e4e4e4;
   background: #ffffff;
   color: #4f4f4f;
 }
@@ -25,8 +31,8 @@
 }
 
 .ui-widget-header {
-  border: 1px solid #a8a8a8;
-  background: #c4c4c4;
+  border: none;
+  background: #fff;
   color: #333;
   font-weight: bold;
   text-shadow: none;
@@ -1062,6 +1068,7 @@
   background: #fff;
   border-radius: 0;
   border-bottom: 2px solid;
+  padding-left: 20px !important;
 }
 .theme-blue .ui-tabs .ui-tabs-nav {
   border-bottom-color: #005dab ;
@@ -1095,6 +1102,10 @@
   background: #fff;
   border-bottom: none;
   box-shadow: none;
+}
+
+.ui-tabs .ui-tabs-nav .ui-state-hover a {
+  background-color: #eee;
 }
 
 .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
